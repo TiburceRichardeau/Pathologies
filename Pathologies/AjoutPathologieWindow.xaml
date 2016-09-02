@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathologies"
         mc:Ignorable="d"
-        Title="AjoutPathologieWindow" Height="425.188" Width="624.812">
+        Title="AjoutPathologieWindow" Height="425.188" Width="633.028">
     <Grid>
         <Label x:Name="label" Content="Ajouter une Pathologie" HorizontalAlignment="Left" Margin="214,0,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" FontStyle="Italic"/>
         <Label x:Name="label1" Content="Pathologie :" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>

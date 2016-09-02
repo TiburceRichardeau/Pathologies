@@ -61,7 +61,7 @@ namespace Pathologies {
         [System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [System.CodeDom.Compiler.GeneratedCodeAttribute("PresentationBuildTasks", "4.0.0.0")]
         public static void Main() {
-            CPathologies.App app = new CPathologies.App();
+            Pathologies.App app = new Pathologies.App();
             app.InitializeComponent();
             app.Run();
         }

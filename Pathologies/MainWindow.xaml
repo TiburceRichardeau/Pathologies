@@ -5,18 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathologies"
         mc:Ignorable="d"
-        Title="Pathologies" Height="768" Width="1366" WindowStartupLocation="CenterScreen" WindowState="Maximized">
-    
-    
+        Title="Pathologies v1.0 - by AD" Height="652" Width="1209" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+
+
     <Grid>
         <Grid Name="grid_bottom" HorizontalAlignment="Stretch" Height="32" Margin="0,287,0,0" VerticalAlignment="Bottom" Background="#FFEEEEEE">
             <Label x:Name="lb_nb_pat" Content="" HorizontalAlignment="Left" Margin="12,3,0,0" VerticalAlignment="Top" Width="397"/>
         </Grid>
-        <Grid HorizontalAlignment="Left" Height="84" Margin="10,55,0,0" VerticalAlignment="Top" Width="215" >
-            <Label x:Name="label1" Content="Rechercher" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
-            <TextBox x:Name="tb_recherche" HorizontalAlignment="Left" Height="29" Margin="10,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="tb_recherche_TextChanged"/>
-        </Grid>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Left" AutoGenerateColumns="False" IsReadOnly="True" Margin="370,55,0,0" VerticalAlignment="Top" Height="606" Width="978">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="362,56,19,51" VerticalAlignment="Stretch">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nom" Binding="{Binding nom}" Width="*" />
                 <DataGridTextColumn Header="Causes" Binding="{Binding causes}" Width="*"/>
@@ -42,6 +38,18 @@
                 <TextBlock Text="Ajouter une pathologie" VerticalAlignment="Center" />
             </StackPanel>
         </Button>
+        <Label x:Name="label1" Content="Rechercher" HorizontalAlignment="Left" Margin="31,112,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb_recherche" HorizontalAlignment="Left" Height="29" Margin="31,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="tb_recherche_TextChanged"/>
+        <GroupBox x:Name="groupBox" Header="Options" HorizontalAlignment="Left" Margin="17,191,0,0" VerticalAlignment="Top" Height="144" Width="261"/>
+
+        <RadioButton x:Name="rb_all" Content="Toutes les colonnes" GroupName="options" IsChecked="True" HorizontalAlignment="Left" Margin="31,215,0,0" VerticalAlignment="Top" Checked="rb_all_Checked"/>
+
+        <RadioButton x:Name="rb_cause" Content="Causes" GroupName="options" HorizontalAlignment="Left" Margin="31,246,0,0" VerticalAlignment="Top" Checked="rb_cause_Checked"/>
+        <RadioButton x:Name="rb_symptomes" Content="Symptômes" GroupName="options" HorizontalAlignment="Left" Margin="31,263,0,0" VerticalAlignment="Top" Checked="rb_symptomes_Checked"/>
+        <RadioButton x:Name="rb_app_alimentaire" Content="Approche Alimentaire" GroupName="options" HorizontalAlignment="Left" Margin="31,280,0,0" VerticalAlignment="Top" Checked="rb_app_alimentaire_Checked"/>
+        <RadioButton x:Name="rb_compl_alimentaire" Content="Compléments Alimentaires" GroupName="options" HorizontalAlignment="Left" Margin="31,298,0,0" VerticalAlignment="Top" Checked="rb_compl_alimentaire_Checked"/>
+        <RadioButton x:Name="rb_autre" Content="Autre Approche" GroupName="options" HorizontalAlignment="Left" Margin="31,315,0,0" VerticalAlignment="Top" Checked="rb_autre_Checked"/>
+        <RadioButton x:Name="rb_nom" Content="Nom Pathologie" GroupName="options" HorizontalAlignment="Left" Margin="31,230,0,0" VerticalAlignment="Top" Checked="rb_nom_Checked"/>
 
     </Grid>
 </Window>
