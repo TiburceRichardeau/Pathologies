@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace Pathologies
 {
 
-    class Pathologie
+    public class Pathologie
     {
         public string id { get; set; }
         public string nom { get; set; }

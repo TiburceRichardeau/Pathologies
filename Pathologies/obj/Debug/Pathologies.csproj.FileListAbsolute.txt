@@ -23,26 +23,34 @@ C:\Users\antoi\onedrive\documents\visual studio 2015\Projects\Pathologies\Pathol
 C:\Users\antoi\onedrive\documents\visual studio 2015\Projects\Pathologies\Pathologies\obj\Debug\AjoutPathologieWindow.g.cs
 C:\Users\antoi\onedrive\documents\visual studio 2015\Projects\Pathologies\Pathologies\obj\Debug\AjoutPathologieWindow.baml
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\Pathologies.exe.config
-C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.exe
-C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.pdb
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\Pathologies.exe
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\Pathologies.pdb
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\EntityFramework.dll
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\GitHubUpdate.dll
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\Semver.dll
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\System.Data.SQLite.dll
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\System.Data.SQLite.EF6.dll
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\System.Data.SQLite.Linq.dll
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\EntityFramework.xml
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\System.Data.SQLite.xml
-C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.csprojResolveAssemblyReference.cache
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\AjoutPathologieWindow.g.cs
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\MainWindow.g.cs
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\ModifierWindow.g.cs
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\App.g.cs
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies_MarkupCompile.cache
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies_MarkupCompile.lref
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\AjoutPathologieWindow.baml
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\MainWindow.baml
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\ModifierWindow.baml
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.g.resources
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.Properties.Resources.resources
 C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.csproj.GenerateResource.Cache
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.exe
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.pdb
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\NLog.config
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\NLog.dll
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\NLog.xml
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\obj\Debug\Pathologies.csprojResolveAssemblyReference.cache
+C:\Users\antoi\OneDrive\Documents\GitHub\Pathologies\Pathologies\bin\Debug\Octokit.dll

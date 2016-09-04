@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SQLite;
@@ -9,10 +10,11 @@ using System.Windows;
 
 namespace Pathologies
 {
-    class SqlLiteManager
+    public class SqlLiteManager
     {
         private string _strConn = "Data Source=database.db;Version=3;";
         private SQLiteConnection _con;
+        private static Logger logger = LogManager.GetCurrentClassLogger();
 
         public SqlLiteManager()
         {
@@ -40,7 +42,7 @@ namespace Pathologies
             }
             catch (Exception e)
             {
-                MessageBox.Show(e.StackTrace);
+                logger.Error(e);
                 return null;
             }            
         }
@@ -78,7 +80,42 @@ namespace Pathologies
             }
             catch (Exception e)
             {
+                logger.Error(e);
                 return false;
+            }
+        }
+
+        internal void ModifierPathologie(Pathologie pathologie)
+        {
+            try
+            {
+                _con.Open();
+
+                SQLiteCommand command = new SQLiteCommand(_con);
+                command.CommandText = "UPDATE pathologie SET nom = @nom, causes = @causes, symptomes = @symptomes, approche_alimentaire = @approche_alimentaire, complements_alimentaires = @complements_alimentaires, autre_approche = @autre_approche WHERE id = " + pathologie.id + "; ";
+                SQLiteParameter nom = new SQLiteParameter("@nom", pathologie.nom);
+                SQLiteParameter causes = new SQLiteParameter("@causes", pathologie.causes);
+                SQLiteParameter symptomes = new SQLiteParameter("@symptomes", pathologie.symptomes);
+                SQLiteParameter approche_alimentaire = new SQLiteParameter("@approche_alimentaire", pathologie.approche_alimentaire);
+                SQLiteParameter complements_alimentaires = new SQLiteParameter("@complements_alimentaires", pathologie.complements_alimentaires);
+                SQLiteParameter autre_approche = new SQLiteParameter("@autre_approche", pathologie.autre_approche);
+
+
+                command.Parameters.Add(nom);
+                command.Parameters.Add(causes);
+                command.Parameters.Add(symptomes);
+                command.Parameters.Add(approche_alimentaire);
+                command.Parameters.Add(complements_alimentaires);
+                command.Parameters.Add(autre_approche);
+
+                command.ExecuteNonQuery();
+
+                _con.Close();
+
+            }
+            catch (Exception e)
+            {
+                logger.Error(e);
             }
         }
 
@@ -99,7 +136,7 @@ namespace Pathologies
             }
             catch (Exception e)
             {
-                
+                logger.Error(e);
             }
         }
 
@@ -118,6 +155,7 @@ namespace Pathologies
             }
             catch (Exception e)
             {
+                logger.Error(e);
                 return -1;
             }
         }

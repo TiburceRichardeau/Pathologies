@@ -5,20 +5,39 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathologies"
         mc:Ignorable="d"
-        Title="Pathologies v1.0 - by AD" Height="652" Width="1209" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+        Title="Pathologies v1.0 - by AD" Height="652" Width="1209" WindowStartupLocation="CenterScreen" WindowState="Maximized" MinHeight="450" MinWidth="700">
 
 
     <Grid>
+        <ToolBarTray DockPanel.Dock="Top" Height="28" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+
+            <ToolBar x:Name="toolBar" HorizontalAlignment="Left" ToolBarTray.IsLocked="True" VerticalAlignment="Top" Height="28" Width="228" Margin="0,0,-20,0">
+                <Button x:Name="but_ajouter" Margin="0,-2,0,-3" Click="but_ajouter_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28">
+                    <StackPanel Orientation="Horizontal" Width="149">
+                        <Image Source="img/report_add.png" Width="16" Height="16" Margin="0,0,10,0"/>
+                        <TextBlock Text="Ajouter une pathologie" VerticalAlignment="Center" />
+                    </StackPanel>
+                </Button>
+                <Separator />
+                <Button Name="but_bug" ToolTip="Signaler un bug." HorizontalAlignment="Right" Click="but_bug_Click">
+                    <Image Source="img/bug.png" />
+                </Button>
+                <Image x:Name="imj_maj" Height="16" VerticalAlignment="Top" Width="16" Margin="10,4,0,0" />
+
+            </ToolBar>
+        </ToolBarTray>
+
         <Grid Name="grid_bottom" HorizontalAlignment="Stretch" Height="32" Margin="0,287,0,0" VerticalAlignment="Bottom" Background="#FFEEEEEE">
             <Label x:Name="lb_nb_pat" Content="" HorizontalAlignment="Left" Margin="12,3,0,0" VerticalAlignment="Top" Width="397"/>
+            <Label Name="lb_version" FontStyle="Italic" FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Right" VerticalAlignment="Bottom" Height="32" Width="105"/>
         </Grid>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="362,56,19,51" VerticalAlignment="Stretch">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="335,56,19,51" VerticalAlignment="Stretch">
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Nom" Binding="{Binding nom}" Width="*" />
-                <DataGridTextColumn Header="Causes" Binding="{Binding causes}" Width="*"/>
-                <DataGridTextColumn Header="Symptomes" Binding="{Binding symptomes}" Width="*"/>
-                <DataGridTextColumn Header="Approche Alimentaire" Binding="{Binding approche_alimentaire}" Width="*"/>
-                <DataGridTextColumn Header="Compléments Alimentaires" Binding="{Binding complements_alimentaires}" Width="*"/>
+                <DataGridTextColumn Header="Nom" Binding="{Binding nom}" Width="Auto" />
+                <DataGridTextColumn Header="Causes" Binding="{Binding causes}" Width="Auto"/>
+                <DataGridTextColumn Header="Symptomes" Binding="{Binding symptomes}" Width="Auto"/>
+                <DataGridTextColumn Header="Approche Alimentaire" Binding="{Binding approche_alimentaire}" Width="Auto"/>
+                <DataGridTextColumn Header="Compléments Alimentaires" Binding="{Binding complements_alimentaires}" Width="Auto"/>
                 <DataGridTextColumn Header="Autre Approche" Binding="{Binding autre_approche}" Width="*"/>
             </DataGrid.Columns>
             <DataGrid.ContextMenu>
@@ -28,16 +47,14 @@
                             <Image Source="img/delete.png" />
                         </MenuItem.Icon>
                     </MenuItem>
+                    <MenuItem Header="Modifier" Name="modifier" Click="modifier_Click">
+                        <MenuItem.Icon>
+                            <Image Source="img/edit.png" />
+                        </MenuItem.Icon>
+                    </MenuItem>
                 </ContextMenu>
             </DataGrid.ContextMenu>
         </DataGrid>
-
-        <Button Name="but_ajouter" Margin="21,22,0,0" Click="but_ajouter_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28">
-            <StackPanel Orientation="Horizontal" Width="149">
-                <Image Source="img/report_add.png" Width="16" Height="16" Margin="0,0,10,0"/>
-                <TextBlock Text="Ajouter une pathologie" VerticalAlignment="Center" />
-            </StackPanel>
-        </Button>
         <Label x:Name="label1" Content="Rechercher" HorizontalAlignment="Left" Margin="31,112,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tb_recherche" HorizontalAlignment="Left" Height="29" Margin="31,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="tb_recherche_TextChanged"/>
         <GroupBox x:Name="groupBox" Header="Options" HorizontalAlignment="Left" Margin="17,191,0,0" VerticalAlignment="Top" Height="144" Width="261"/>
