@@ -34,6 +34,7 @@ Changes logs
 Le logiciel démarre tout seul en mode administrateur.
 Possibilité de charger/créer plusieurs bdd.
 > **A venir**
+
 > Enregistrer la nouvelle bdd sous un autre nom.
 
 ###1.0.1
