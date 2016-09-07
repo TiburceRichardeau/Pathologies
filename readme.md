@@ -30,6 +30,12 @@ Veuillez par contre joindre le fichier de log (log.txt) qui se trouve dans le do
 ----------
 Changes logs
 -------------
+###1.1.0
+Le logiciel démarre tout seul en mode administrateur.
+Possibilité de charger/créer plusieurs bdd.
+> **A venir**
+> Enregistrer la nouvelle bdd sous un autre nom.
+
 ###1.0.1
 Gestion du problème des logs.
 Gestion du problème de BDD.
