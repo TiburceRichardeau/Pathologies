@@ -1,37 +1,26 @@
 ﻿<Window x:Class="Pathologies.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathologies"
         mc:Ignorable="d"
-        Title="Pathologies v1.0 - by AD" Height="652" Width="1209" WindowStartupLocation="CenterScreen" WindowState="Maximized" MinHeight="450" MinWidth="700">
-
-
+        Title="Pathologies v1.0" Height="652" Width="1209" WindowStartupLocation="CenterScreen" WindowState="Maximized" MinHeight="450" MinWidth="700">
     <Grid>
-        <ToolBarTray DockPanel.Dock="Top" Height="28" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+        <!--<ToolBarTray DockPanel.Dock="Top" Height="28" VerticalAlignment="Top" HorizontalAlignment="Stretch">
+        -->
+        <!--<ToolBar x:Name="toolBar" HorizontalAlignment="Left" ToolBarTray.IsLocked="True" VerticalAlignment="Top" Height="28" Width="228" Margin="0,0,-20,0">
+                
+            </ToolBar>-->
+        <!--</ToolBarTray>-->
 
-            <ToolBar x:Name="toolBar" HorizontalAlignment="Left" ToolBarTray.IsLocked="True" VerticalAlignment="Top" Height="28" Width="228" Margin="0,0,-20,0">
-                <Button x:Name="but_ajouter" Margin="0,-2,0,-3" Click="but_ajouter_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28">
-                    <StackPanel Orientation="Horizontal" Width="149">
-                        <Image Source="img/report_add.png" Width="16" Height="16" Margin="0,0,10,0"/>
-                        <TextBlock Text="Ajouter une pathologie" VerticalAlignment="Center" />
-                    </StackPanel>
-                </Button>
-                <Separator />
-                <Button Name="but_bug" ToolTip="Signaler un bug." HorizontalAlignment="Right" Click="but_bug_Click">
-                    <Image Source="img/bug.png" />
-                </Button>
-                <Image x:Name="imj_maj" Height="16" VerticalAlignment="Top" Width="16" Margin="10,4,0,0" />
-
-            </ToolBar>
-        </ToolBarTray>
-
-        <Grid Name="grid_bottom" HorizontalAlignment="Stretch" Height="32" Margin="0,287,0,0" VerticalAlignment="Bottom" Background="#FFEEEEEE">
-            <Label x:Name="lb_nb_pat" Content="" HorizontalAlignment="Left" Margin="12,3,0,0" VerticalAlignment="Top" Width="397"/>
+        <Grid Name="grid_bottom" HorizontalAlignment="Stretch" Margin="0,589,0,0">
+            <Label x:Name="lb_nb_pat" Content="" HorizontalAlignment="Left" Margin="12,3,0,0" VerticalAlignment="Bottom" Width="397"/>
             <Label Name="lb_version" FontStyle="Italic" FontWeight="Bold" HorizontalAlignment="Right" HorizontalContentAlignment="Right" VerticalAlignment="Bottom" Height="32" Width="105"/>
         </Grid>
-        <DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="335,56,19,51" VerticalAlignment="Stretch">
+        <DataGrid x:Name="dataGrid" HorizontalAlignment="Stretch" AutoGenerateColumns="False" IsReadOnly="True" Margin="335,56,19,51" VerticalAlignment="Stretch" MouseDoubleClick="dataGrid_MouseDoubleClick" SelectionMode="Single">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Nom" Binding="{Binding nom}" Width="Auto" />
                 <DataGridTextColumn Header="Causes" Binding="{Binding causes}" Width="Auto"/>
@@ -41,7 +30,7 @@
                 <DataGridTextColumn Header="Autre Approche" Binding="{Binding autre_approche}" Width="*"/>
             </DataGrid.Columns>
             <DataGrid.ContextMenu>
-                <ContextMenu >
+                <ContextMenu>
                     <MenuItem Header="Supprimer" Name="supprimer" Click="supprimer_Click">
                         <MenuItem.Icon>
                             <Image Source="img/delete.png" />
@@ -57,16 +46,24 @@
         </DataGrid>
         <Label x:Name="label1" Content="Rechercher" HorizontalAlignment="Left" Margin="31,112,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="tb_recherche" HorizontalAlignment="Left" Height="29" Margin="31,138,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="195" TextChanged="tb_recherche_TextChanged"/>
-        <GroupBox x:Name="groupBox" Header="Options" HorizontalAlignment="Left" Margin="17,191,0,0" VerticalAlignment="Top" Height="144" Width="261"/>
+        <GroupBox x:Name="groupBox" Header="Options" HorizontalAlignment="Left" Margin="17,182,0,0" VerticalAlignment="Top" Height="180" Width="261"/>
 
-        <RadioButton x:Name="rb_all" Content="Toutes les colonnes" GroupName="options" IsChecked="True" HorizontalAlignment="Left" Margin="31,215,0,0" VerticalAlignment="Top" Checked="rb_all_Checked"/>
+        <RadioButton x:Name="rb_all" Content="Toutes les colonnes" GroupName="options" IsChecked="True" HorizontalAlignment="Left" Margin="31,227,0,0" VerticalAlignment="Top" Checked="rb_all_Checked"/>
 
-        <RadioButton x:Name="rb_cause" Content="Causes" GroupName="options" HorizontalAlignment="Left" Margin="31,246,0,0" VerticalAlignment="Top" Checked="rb_cause_Checked"/>
-        <RadioButton x:Name="rb_symptomes" Content="Symptômes" GroupName="options" HorizontalAlignment="Left" Margin="31,263,0,0" VerticalAlignment="Top" Checked="rb_symptomes_Checked"/>
-        <RadioButton x:Name="rb_app_alimentaire" Content="Approche Alimentaire" GroupName="options" HorizontalAlignment="Left" Margin="31,280,0,0" VerticalAlignment="Top" Checked="rb_app_alimentaire_Checked"/>
-        <RadioButton x:Name="rb_compl_alimentaire" Content="Compléments Alimentaires" GroupName="options" HorizontalAlignment="Left" Margin="31,298,0,0" VerticalAlignment="Top" Checked="rb_compl_alimentaire_Checked"/>
-        <RadioButton x:Name="rb_autre" Content="Autre Approche" GroupName="options" HorizontalAlignment="Left" Margin="31,315,0,0" VerticalAlignment="Top" Checked="rb_autre_Checked"/>
-        <RadioButton x:Name="rb_nom" Content="Nom Pathologie" GroupName="options" HorizontalAlignment="Left" Margin="31,230,0,0" VerticalAlignment="Top" Checked="rb_nom_Checked"/>
+        <RadioButton x:Name="rb_cause" Content="Causes" GroupName="options" HorizontalAlignment="Left" Margin="31,260,0,0" VerticalAlignment="Top" Checked="rb_cause_Checked"/>
+        <RadioButton x:Name="rb_symptomes" Content="Symptômes" GroupName="options" HorizontalAlignment="Left" Margin="31,277,0,0" VerticalAlignment="Top" Checked="rb_symptomes_Checked"/>
+        <RadioButton x:Name="rb_app_alimentaire" Content="Approche Alimentaire" GroupName="options" HorizontalAlignment="Left" Margin="31,294,0,0" VerticalAlignment="Top" Checked="rb_app_alimentaire_Checked"/>
+        <RadioButton x:Name="rb_compl_alimentaire" Content="Compléments Alimentaires" GroupName="options" HorizontalAlignment="Left" Margin="31,312,0,0" VerticalAlignment="Top" Checked="rb_compl_alimentaire_Checked"/>
+        <RadioButton x:Name="rb_autre" Content="Autre Approche" GroupName="options" HorizontalAlignment="Left" Margin="31,329,0,0" VerticalAlignment="Top" Checked="rb_autre_Checked"/>
+        <RadioButton x:Name="rb_nom" Content="Nom Pathologie" GroupName="options" HorizontalAlignment="Left" Margin="31,244,0,0" VerticalAlignment="Top" Checked="rb_nom_Checked"/>
+
+
+        <Button x:Name="but_ajouter" Click="but_ajouter_Click" HorizontalAlignment="Left" VerticalAlignment="Top" Height="28" Margin="109,424,0,0" Content="Ajouter" />
+
+        <Button Name="but_bug" ToolTip="Signaler un bug" HorizontalAlignment="Left" Click="but_bug_Click" VerticalAlignment="Top" Margin="20,0,0,589">
+            <Image Source="img/bug.png" />
+        </Button>
+        <!--<Image x:Name="imj_maj" Height="16" VerticalAlignment="Top" Width="16" Margin="10,4,0,0" />-->
 
     </Grid>
 </Window>

@@ -1,16 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
+﻿using System.Windows;
 using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
 
 namespace Pathologies
 {
@@ -26,6 +15,7 @@ namespace Pathologies
         {
             InitializeComponent();
             this.mainWindow = mainWindow;
+            tb_pathologie.Focus();
         }
 
         private void but_valider_Click(object sender, RoutedEventArgs e)
@@ -34,7 +24,7 @@ namespace Pathologies
             {
                 if(sqlM.AjouterPathologie(new Pathologie(tb_pathologie.Text, tb_causes.Text, tb_symptomes.Text, tb_app_alimentaire.Text, tb_complement_ali.Text, tb_autres_approches.Text)))
                 {
-                    MessageBox.Show("La pathologie a été correctement ajouté.", "Succès", MessageBoxButton.OK, MessageBoxImage.Information);
+                    //MessageBox.Show("La pathologie a été correctement ajouté.", "Succès", MessageBoxButton.OK, MessageBoxImage.Information);
                     mainWindow.Maj();
                     Close();
                 }
@@ -43,5 +33,10 @@ namespace Pathologies
             }
         }
 
+        private void Window_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Key==Key.Enter)
+                but_valider_Click(sender, e);
+        }
     }
 }

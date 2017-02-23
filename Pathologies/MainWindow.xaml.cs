@@ -1,18 +1,12 @@
 ﻿using System;
-using System.Data.SqlClient;
 using System.Windows;
 using System.Windows.Controls;
-using System.Data.SQLite;
-using System.Windows.Media;
 using System.Windows.Input;
 using System.ComponentModel;
 using System.Windows.Data;
-using GitHubUpdate;
 using System.Diagnostics;
 using System.Reflection;
-using System.Windows.Media.Imaging;
 using NLog;
-using System.Threading;
 
 namespace Pathologies
 {
@@ -22,7 +16,7 @@ namespace Pathologies
     public partial class MainWindow : Window
     {
         CPathologies pList;
-        UpdateChecker checker;
+        //UpdateChecker checker;
         SqlLiteManager man = new SqlLiteManager();
         private RadioButton rb_ckecked = new RadioButton() ;
         private static Logger logger = LogManager.GetCurrentClassLogger();
@@ -30,11 +24,12 @@ namespace Pathologies
         public MainWindow()
         {
             InitializeComponent();
+            this.Title = "Pathologies " + GetCurrentVersion();
             Maj();
             rb_ckecked = rb_all;
-            CheckUpdate();
+            //CheckUpdate();
         }
-
+        /*
         /// <summary>
         /// Verifie si lelogiciel est à jours.
         /// </summary>
@@ -83,7 +78,7 @@ namespace Pathologies
             }
            
         }
-        
+        */
         /// <summary>
         /// Met à jours la DG, le nb de pathologies et la version.
         /// </summary>
@@ -92,8 +87,16 @@ namespace Pathologies
             logger.Info("Mise à jours des informations datagrid, label, ...");
             pList = new CPathologies();
             dataGrid.ItemsSource = pList;
-            lb_nb_pat.Content = "Nombre de pathologie(s) enregistrée(s) : " + man.GetNbPathologies();
+            int nbPat= man.GetNbPathologies();
+            if (nbPat == -1)
+            {
+                lb_nb_pat.Content = string.Empty;
+            }else
+            {
+                lb_nb_pat.Content = "Nombre de pathologie(s) enregistrée(s) : " + nbPat;
+            }
             lb_version.Content = GetCurrentVersion();
+
         }
 
         /// <summary>
@@ -110,7 +113,7 @@ namespace Pathologies
         // **************EVENTS********************
 
 
-        private void img_not_maj_MouseClick(object sender, MouseButtonEventArgs e)
+       /* private void img_not_maj_MouseClick(object sender, MouseButtonEventArgs e)
         {
             MessageBoxResult result = MessageBox.Show("Une mise a jour est disponible.\nVoulez-vous la télécharger?", "Mise à jours", MessageBoxButton.YesNo, MessageBoxImage.Information);
             if (result == MessageBoxResult.Yes)
@@ -127,7 +130,7 @@ namespace Pathologies
         private void img_not_maj_MouseEnter(object sender, MouseEventArgs e)
         {
             Mouse.OverrideCursor = Cursors.Hand;
-        }
+        }*/
 
         private void tb_recherche_TextChanged(object sender, TextChangedEventArgs e)
         {
@@ -286,15 +289,33 @@ namespace Pathologies
         {
             try
             {
-                // here i wish set the parameters of email in this way 
+                Microsoft.Office.Interop.Outlook.Application app = new Microsoft.Office.Interop.Outlook.Application();
+                Microsoft.Office.Interop.Outlook.MailItem mailItem = app.CreateItem(Microsoft.Office.Interop.Outlook.OlItemType.olMailItem);
+                mailItem.Subject = "[BUG] Pathologie " + GetCurrentVersion();
+                mailItem.To = "tiburce.richardeau@gmail.com";
+                mailItem.Attachments.Add(Environment.CurrentDirectory + "\\log.txt");
+                mailItem.Display(false);
+
+                /*// here i wish set the parameters of email in this way 
                 // 1. mailto = url;
                 // 2. subject = txtSubject.Text;
                 // 3. body = txtBody.Text;
-                Process.Start("mailto:antoine.dautry@gmail.com?subject=[BUG] Pathologie " + GetCurrentVersion() + "&body=Merci de joindre le fichier log.txt dans le dossier du logiciel.");
+                Process.Start("mailto:tiburce.richardeau@gmail.com?subject=[BUG] Pathologie " + GetCurrentVersion() + "&body=Merci de joindre le fichier log.txt dans le dossier du logiciel.");
+                */
             }
             catch (Exception ex)
             {
                 logger.Error(ex);
+            }
+        }
+
+        private void dataGrid_MouseDoubleClick(object sender, MouseButtonEventArgs e)
+        {
+            if (dataGrid.SelectedIndex != -1)
+            {
+                Pathologie path = (Pathologie)dataGrid.SelectedItem;
+                ModifierWindow mo = new ModifierWindow(path, this);
+                mo.ShowDialog();
             }
         }
     }

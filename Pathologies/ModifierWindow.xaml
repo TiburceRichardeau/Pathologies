@@ -1,11 +1,13 @@
 ﻿<Window x:Class="Pathologies.ModifierWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Pathologies"
         mc:Ignorable="d"
-        Title="Modifier" Height="425.188" Width="633.028" ResizeMode="NoResize" Closing="Window_Closing">
+        Title="Modifier" Height="450" Width="633.028" ResizeMode="NoResize" Closing="Window_Closing" WindowStartupLocation="CenterScreen">
     <Grid>
         <Label x:Name="label" Content="Modifier une Pathologie" HorizontalAlignment="Left" Margin="214,0,0,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="16" FontStyle="Italic"/>
         <Label x:Name="label1" Content="Pathologie :" HorizontalAlignment="Left" Margin="10,60,0,0" VerticalAlignment="Top"/>
@@ -32,7 +34,6 @@
         <TextBox x:Name="tb_autres_approches" HorizontalAlignment="Left" Height="69" Margin="401,257,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="206"/>
         <Button Width="Auto" Margin="272,355,260,10" Name="but_modifier" Click="but_modifier_Click">
             <StackPanel Orientation="Horizontal" Width="70">
-                <Image Source="img/edit.png" Width="16" Height="16" Margin="0,0,5,0"/>
                 <TextBlock Text="Modifier" VerticalAlignment="Center" />
             </StackPanel>
         </Button>

@@ -1,2 +1,593 @@
 19:42:40 [INFO] Mise à jours des informations datagrid, label, ... 
 19:42:41 [INFO] Vérification des mises à jours : l'application est à jours. 
+22:14:55 [INFO] Mise à jours des informations datagrid, label, ... 
+22:14:56 [INFO] Vérification des mises à jours : l'application n'est pas à jours. 
+22:20:48 [INFO] Mise à jours des informations datagrid, label, ... 
+22:20:48 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:23:55 [INFO] Mise à jours des informations datagrid, label, ... 
+22:23:55 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:25:10 [INFO] Mise à jours des informations datagrid, label, ... 
+22:25:10 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:26:22 [INFO] Mise à jours des informations datagrid, label, ... 
+22:26:22 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:27:17 [INFO] Mise à jours des informations datagrid, label, ... 
+22:27:17 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:28:31 [INFO] Mise à jours des informations datagrid, label, ... 
+22:28:32 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:29:12 [INFO] Mise à jours des informations datagrid, label, ... 
+22:29:12 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:31:19 [INFO] Mise à jours des informations datagrid, label, ... 
+22:31:19 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:31:27 [INFO] Mise à jours des informations datagrid, label, ... 
+22:31:27 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:32:01 [INFO] Mise à jours des informations datagrid, label, ... 
+22:32:01 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 45
+22:32:40 [INFO] Mise à jours des informations datagrid, label, ... 
+22:32:40 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:32:54 [INFO] Mise à jours des informations datagrid, label, ... 
+22:35:29 [INFO] Mise à jours des informations datagrid, label, ... 
+22:35:29 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:36:12 [INFO] Mise à jours des informations datagrid, label, ... 
+22:36:12 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:36:34 [INFO] Mise à jours des informations datagrid, label, ... 
+22:36:34 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:37:05 [INFO] Mise à jours des informations datagrid, label, ... 
+22:37:05 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:37:17 [INFO] Mise à jours des informations datagrid, label, ... 
+22:37:17 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:37:40 [INFO] Mise à jours des informations datagrid, label, ... 
+22:37:40 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:38:25 [INFO] Mise à jours des informations datagrid, label, ... 
+22:38:25 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:38:43 [INFO] Mise à jours des informations datagrid, label, ... 
+22:38:43 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:39:19 [INFO] Mise à jours des informations datagrid, label, ... 
+22:39:19 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:44:22 [INFO] Mise à jours des informations datagrid, label, ... 
+22:44:22 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:44:26 [INFO] Mise à jours des informations datagrid, label, ... 
+22:44:26 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:44:33 [INFO] Mise à jours des informations datagrid, label, ... 
+22:44:33 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:45:00 [INFO] Mise à jours des informations datagrid, label, ... 
+22:45:00 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:51:07 [INFO] Mise à jours des informations datagrid, label, ... 
+22:51:07 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:52:53 [INFO] Mise à jours des informations datagrid, label, ... 
+22:52:53 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:53:46 [INFO] Mise à jours des informations datagrid, label, ... 
+22:53:46 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:54:26 [INFO] Mise à jours des informations datagrid, label, ... 
+22:54:26 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:56:10 [INFO] Mise à jours des informations datagrid, label, ... 
+22:56:10 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:56:32 [INFO] Mise à jours des informations datagrid, label, ... 
+22:56:32 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:56:36 [INFO] Mise à jours des informations datagrid, label, ... 
+22:56:36 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:56:39 [INFO] Mise à jours des informations datagrid, label, ... 
+22:56:39 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:56:58 [INFO] Mise à jours des informations datagrid, label, ... 
+22:56:58 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:57:22 [INFO] Mise à jours des informations datagrid, label, ... 
+22:57:22 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:58:16 [INFO] Mise à jours des informations datagrid, label, ... 
+22:58:16 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+22:59:17 [INFO] Mise à jours des informations datagrid, label, ... 
+22:59:18 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+22:59:33 [INFO] Mise à jours des informations datagrid, label, ... 
+22:59:33 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:11:08 [INFO] Mise à jours des informations datagrid, label, ... 
+23:11:09 [ERROR] System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41 System.MissingMethodException: Méthode introuvable : 'Octokit.IReleasesClient Octokit.GitHubClient.get_Release()'.
+   à GitHubUpdate.UpdateChecker.Init(String owner, String name, SemVersion version)
+   à GitHubUpdate.UpdateChecker..ctor(String owner, String name)
+   à Pathologies.MainWindow.<CheckUpdate>d__6.MoveNext() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\MainWindow.xaml.cs:ligne 41
+23:13:22 [INFO] Mise à jours des informations datagrid, label, ... 
+23:15:13 [INFO] Mise à jours des informations datagrid, label, ... 
+23:16:15 [INFO] Mise à jours des informations datagrid, label, ... 
+23:17:56 [INFO] Mise à jours des informations datagrid, label, ... 
+23:18:46 [INFO] Mise à jours des informations datagrid, label, ... 
+23:18:46 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:21:49 [INFO] Mise à jours des informations datagrid, label, ... 
+23:23:31 [INFO] Mise à jours des informations datagrid, label, ... 
+23:23:40 [INFO] Mise à jours des informations datagrid, label, ... 
+23:23:40 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:24:18 [INFO] Mise à jours des informations datagrid, label, ... 
+23:24:29 [INFO] Mise à jours des informations datagrid, label, ... 
+23:24:29 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:24:42 [INFO] Mise à jours des informations datagrid, label, ... 
+23:24:42 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:40:00 [INFO] Mise à jours des informations datagrid, label, ... 
+23:41:10 [INFO] Mise à jours des informations datagrid, label, ... 
+23:41:21 [INFO] Mise à jours des informations datagrid, label, ... 
+23:41:21 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:41:28 [INFO] Mise à jours des informations datagrid, label, ... 
+23:41:28 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:46:06 [INFO] Mise à jours des informations datagrid, label, ... 
+23:46:16 [INFO] Mise à jours des informations datagrid, label, ... 
+23:46:16 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:50:35 [INFO] Mise à jours des informations datagrid, label, ... 
+23:51:23 [INFO] Mise à jours des informations datagrid, label, ... 
+23:51:27 [INFO] Mise à jours des informations datagrid, label, ... 
+23:51:27 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:51:31 [INFO] Mise à jours des informations datagrid, label, ... 
+23:51:31 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:51:34 [INFO] Mise à jours des informations datagrid, label, ... 
+23:51:34 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:52:25 [INFO] Mise à jours des informations datagrid, label, ... 
+23:54:49 [INFO] Mise à jours des informations datagrid, label, ... 
+23:54:53 [INFO] Mise à jours des informations datagrid, label, ... 
+23:54:53 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:54:58 [INFO] Mise à jours des informations datagrid, label, ... 
+23:54:58 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:56:41 [INFO] Mise à jours des informations datagrid, label, ... 
+23:57:27 [INFO] Mise à jours des informations datagrid, label, ... 
+23:57:31 [INFO] Mise à jours des informations datagrid, label, ... 
+23:57:34 [INFO] Mise à jours des informations datagrid, label, ... 
+23:57:45 [INFO] Mise à jours des informations datagrid, label, ... 
+23:57:45 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+23:58:44 [INFO] Mise à jours des informations datagrid, label, ... 
+23:59:24 [INFO] Mise à jours des informations datagrid, label, ... 
+23:59:24 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:00:15 [INFO] Mise à jours des informations datagrid, label, ... 
+00:00:15 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:00:50 [INFO] Mise à jours des informations datagrid, label, ... 
+00:01:04 [INFO] Mise à jours des informations datagrid, label, ... 
+00:01:04 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:13:56 [INFO] Mise à jours des informations datagrid, label, ... 
+00:13:56 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:14:11 [INFO] Mise à jours des informations datagrid, label, ... 
+00:14:11 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:14:48 [INFO] Mise à jours des informations datagrid, label, ... 
+00:14:49 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:15:39 [INFO] Mise à jours des informations datagrid, label, ... 
+00:15:39 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:15:52 [INFO] Mise à jours des informations datagrid, label, ... 
+00:15:52 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:16:07 [INFO] Mise à jours des informations datagrid, label, ... 
+00:16:08 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:19:35 [INFO] Mise à jours des informations datagrid, label, ... 
+00:19:35 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:19:41 [INFO] Mise à jours des informations datagrid, label, ... 
+00:19:41 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:25:16 [INFO] Mise à jours des informations datagrid, label, ... 
+00:25:16 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:28:20 [INFO] Mise à jours des informations datagrid, label, ... 
+00:30:32 [INFO] Mise à jours des informations datagrid, label, ... 
+00:30:32 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:30:32 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:32:08 [INFO] Mise à jours des informations datagrid, label, ... 
+00:32:31 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:33:26 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:34:42 [INFO] Mise à jours des informations datagrid, label, ... 
+00:38:24 [INFO] Mise à jours des informations datagrid, label, ... 
+00:38:56 [INFO] Mise à jours des informations datagrid, label, ... 
+00:39:06 [INFO] Mise à jours des informations datagrid, label, ... 
+00:39:06 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:39:10 [INFO] Mise à jours des informations datagrid, label, ... 
+00:39:10 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:39:51 [INFO] Mise à jours des informations datagrid, label, ... 
+00:39:51 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:39:57 [INFO] Mise à jours des informations datagrid, label, ... 
+00:39:57 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:40:10 [INFO] Mise à jours des informations datagrid, label, ... 
+00:42:28 [INFO] Mise à jours des informations datagrid, label, ... 
+00:45:06 [INFO] Mise à jours des informations datagrid, label, ... 
+00:46:31 [INFO] Mise à jours des informations datagrid, label, ... 
+00:55:53 [INFO] Mise à jours des informations datagrid, label, ... 
+00:56:58 [INFO] Mise à jours des informations datagrid, label, ... 
+00:57:12 [INFO] Mise à jours des informations datagrid, label, ... 
+00:57:12 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+00:57:24 [INFO] Mise à jours des informations datagrid, label, ... 
+00:58:49 [INFO] Mise à jours des informations datagrid, label, ... 
+01:00:07 [INFO] Mise à jours des informations datagrid, label, ... 
+01:01:11 [INFO] Mise à jours des informations datagrid, label, ... 
+01:01:36 [INFO] Mise à jours des informations datagrid, label, ... 
+01:01:36 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:02:08 [INFO] Mise à jours des informations datagrid, label, ... 
+01:02:55 [INFO] Mise à jours des informations datagrid, label, ... 
+01:03:29 [INFO] Mise à jours des informations datagrid, label, ... 
+01:03:37 [INFO] Mise à jours des informations datagrid, label, ... 
+01:03:37 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:04:21 [INFO] Mise à jours des informations datagrid, label, ... 
+01:04:29 [INFO] Mise à jours des informations datagrid, label, ... 
+01:04:29 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:04:29 [INFO] Mise à jours des informations datagrid, label, ... 
+01:04:29 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:23 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:30 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:30 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:30 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:30 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:34 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:34 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:34 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:34 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:38 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:38 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:06:38 [INFO] Mise à jours des informations datagrid, label, ... 
+01:06:38 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:07:28 [INFO] Mise à jours des informations datagrid, label, ... 
+01:07:37 [INFO] Mise à jours des informations datagrid, label, ... 
+01:07:37 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:26:22 [INFO] Mise à jours des informations datagrid, label, ... 
+01:27:38 [INFO] Mise à jours des informations datagrid, label, ... 
+01:28:33 [INFO] Mise à jours des informations datagrid, label, ... 
+01:28:49 [INFO] Mise à jours des informations datagrid, label, ... 
+01:28:49 [ERROR] System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147 System.InvalidOperationException: L'opération n'est pas valide en raison de l'état actuel de l'objet.
+   à System.Data.SQLite.SQLiteConnection.Open()
+   à Pathologies.SqlLiteManager.GetNbPathologies() dans I:\Tib\Documents\GitHub\Pathologies\Pathologies\SqlLiteManager.cs:ligne 147
+01:29:07 [INFO] Mise à jours des informations datagrid, label, ... 
